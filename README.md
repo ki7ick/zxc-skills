@@ -2,7 +2,7 @@
 
 [中文说明](README.zh-CN.md)
 
-A small collection of reusable skills for AI coding agents.
+A collection of reusable skills for AI coding agents.
 
 ## Included Skills
 
@@ -12,47 +12,20 @@ Principles for fact-based reasoning, sufficient context, root-cause analysis, ar
 
 ### `human-readable-code-plan`
 
-Turns code designs, refactoring plans, and change lists into clear, reviewable, and actionable descriptions for developers.
+Turns code designs, refactoring plans, and change lists into descriptions that are easy for developers to understand, review, and execute.
 
-## Installation
+## Install
 
-List the available skills:
+List available skills:
 
 ```bash
 npx skills add ki7ick/zxc-skills --list
 ```
 
-Install one skill:
+Install:
 
 ```bash
-npx skills add ki7ick/zxc-skills --skill agent-working-principles
+npx skills add ki7ick/zxc-skills
 ```
 
-Install both skills:
-
-```bash
-npx skills add ki7ick/zxc-skills --skill '*'
-```
-
-Install for a specific agent or globally:
-
-```bash
-npx skills add ki7ick/zxc-skills --skill '*' --agent cursor --global
-```
-
-The CLI may prompt you to choose the target agent and installation scope when those options are omitted.
-
-## Repository Structure
-
-```text
-skills/
-├── agent-working-principles/
-│   └── SKILL.md
-└── human-readable-code-plan/
-    └── SKILL.md
-```
-
-## Notes
-
-Skills are loaded according to the behavior of the target agent. Installing a skill does not necessarily make it active in every conversation. For principles that should apply to every task, use the target agent's project or global instructions mechanism when available.
-
+The CLI will prompt you to choose the target agent and installation scope.
