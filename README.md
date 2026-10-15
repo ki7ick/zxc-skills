@@ -6,11 +6,11 @@ A collection of reusable skills for AI coding agents.
 
 ## Included Skills
 
-### `agent-working-principles`
+### `zxc-agent-working-principles`
 
 Principles for fact-based reasoning, sufficient context, root-cause analysis, architecture-aware changes, concise communication, and explaining the reason and plan before modifying code or documentation.
 
-### `human-readable-code-plan`
+### `zxc-human-readable-code-plan`
 
 Turns code designs, refactoring plans, and change lists into descriptions that are easy for developers to understand, review, and execute.
 

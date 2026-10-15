@@ -1,5 +1,5 @@
 ---
-name: human-readable-code-plan
+name: zxc-human-readable-code-plan
 description: Turn code plans into human-readable, reviewable, and actionable change descriptions. Use when presenting a code plan, design, refactoring proposal, or change list to the user for review.
 ---
 
