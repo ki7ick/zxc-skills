@@ -78,3 +78,13 @@ Before modifying code or documentation, briefly explain the cause of the problem
 - When the user explicitly asks for a fix, implementation, or modification, explain the judgment and approach first, then proceed directly.
 - Ask the user only when the request has a critical ambiguity, the choice of approach would materially change the result, or the change carries significant risk.
 - Otherwise, make a reasoned decision based on the available information and continue. Do not hand normal decisions back to the user.
+
+## Code Style
+
+Follow the coding style defined in the `zxc-coding-style` skill.
+
+## WorkFlow
+
+Follow the workflow matching the current task:
+
+- Fixing bugs → `workflows/bug-fix-workflow.md`

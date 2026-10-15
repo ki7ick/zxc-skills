@@ -35,7 +35,7 @@ For a small plan, one sentence may be enough. For a larger plan, organize the su
 
 Organize the explanation around the actual changes rather than repeating the analysis process. For important or potentially confusing changes, explain the relevant location, its current responsibility, why it needs to change, and the resulting behavior.
 
-Do not provide isolated file names, line numbers, or function names. Connect each code location to its responsibility and the reason for the change.
+Never give a file name, line number, or function name without stating that location's responsibility and the reason it needs to change.
 
 Use headings, numbers, short paragraphs, or lists as appropriate. No fixed format is required.
 
