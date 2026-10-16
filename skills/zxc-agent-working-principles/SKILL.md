@@ -69,16 +69,6 @@ Do not merely propose a solution or claim completion. Verify the result whenever
 ## Keep Communication Concise
 Provide only information that helps with the current task. Avoid repeated background, irrelevant explanations, and content with no practical value.
 
-## Timing of Changes
-
-Before modifying code or documentation, briefly explain the cause of the problem, the planned approach, and the potential impact.
-
-- When the user asks about the cause of a bug, analyze the cause and provide suggestions without modifying the code directly.
-- When the user asks how to make a change, provide a proposed approach without modifying the code directly.
-- When the user explicitly asks for a fix, implementation, or modification, explain the judgment and approach first, then proceed directly.
-- Ask the user only when the request has a critical ambiguity, the choice of approach would materially change the result, or the change carries significant risk.
-- Otherwise, make a reasoned decision based on the available information and continue. Do not hand normal decisions back to the user.
-
 ## Code Style
 
 Follow the coding style defined in the `zxc-coding-style` skill.
