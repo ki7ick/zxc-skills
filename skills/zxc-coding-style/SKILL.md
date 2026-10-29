@@ -60,7 +60,7 @@ if (name) {
 
 ### Case 2: Return Statements
 
-Do not return a newly constructed expression; assign it to a named variable, then return the variable. Returning an existing variable or literal directly is fine.
+Do not return a newly constructed expression; assign it to a named variable, then return the variable. Returning an existing variable or literal directly is fine. (exclude JSX/TSX elements)
 
 ```tsx
 // bad
@@ -76,6 +76,21 @@ function getTaskType(task: Task) {
   const timestamp = xxx;
   const taskType = `${task.type} - ${timestamp}`;
   return taskType;
+}
+
+// for JSX/TSX elements
+
+// good
+function SummaryLink() {
+  return (
+    <a href="/summary">Summary</a>
+  );
+}
+
+// bad
+function SummaryLink() {
+  const link = <a href="/summary">Summary</a>;
+  return link;
 }
 ```
 
