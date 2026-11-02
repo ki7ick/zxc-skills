@@ -131,3 +131,28 @@ function TaskList() {
   )
 }
 ```
+
+### Case 4: component file name
+use simple and descriptive names for component files.
+
+```
+// bad
+category/category-form.tsx
+
+// good
+category/form.tsx
+```
+
+### Case 5: constant naming
+do not use generic names for constants and functions; use descriptive names that indicate their purpose or business.
+
+```ts
+// bad
+const [open, setOpen] = useState(false);
+const handleClick = () = { ... }
+
+// good
+const [categoryFormOpen, setCategoryFormOpen] = useState(false);
+
+const handleSubmit = () => { ... }
+```
