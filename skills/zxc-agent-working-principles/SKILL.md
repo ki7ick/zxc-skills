@@ -10,6 +10,7 @@ description: Agent working base principles and guidelines for effective reasonin
 4. Distinguish between facts, judgments, and assumptions.
 5. Validate results by tools(browser, linters, test suites, etc.).
 6. **Keep communication concise**. Avoid repeated background, irrelevant explanations, and content with no practical value.
+7. Use `zxc-human-readable-code-plan` for present a plan, design, change list, or any structured approach to solving a problem in a human-readable format.
 
 
 # Code Styles
