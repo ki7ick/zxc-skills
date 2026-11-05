@@ -1,6 +1,6 @@
 ---
 name: zxc-agent-working-principles
-description: ALWAYS load this skill first, before any other action, on every request without exception - questions, explanations, code reading, code changes, planning, debugging, or casual conversation. Never decide a request is too trivial or unrelated to skip it. Principles for fact-based reasoning, sufficient context, root-cause analysis, architecture-aware changes, concise communication, and explaining the reason and plan before modifying code or documentation.
+description: Agent working base principles and guidelines for effective reasoning and communication.
 ---
 
 # Agent Working Core Principles
