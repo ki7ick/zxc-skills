@@ -12,6 +12,7 @@ description: Agent working base principles and guidelines for effective reasonin
 6. **Keep communication concise**. Avoid repeated background, irrelevant explanations, and content with no practical value.
 7. Judge the reasonableness of non-deterministic user requests (such as assumptions, speculations, suggestions, etc.) before executing them. If unreasonable, seek clarification, rather than executing blindly.
 8. Use `zxc-human-readable-code-plan` for present a plan, design, change list, or any structured approach to solving a problem in a human-readable format.
+9. Just answer the question without executing actions when user gives a general inquiry or seeks information only.
 
 
 # Code Styles
