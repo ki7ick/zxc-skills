@@ -3,16 +3,11 @@ name: zxc-agent-working-principles
 description: Agent working base principles and guidelines for effective reasoning and communication, should be used when thinking and making decisions before taking action.
 ---
 
-# Agent Working Core Principles
-1. Always base reasoning on facts and evidence.
-2. Gather enough relevant context for the current problem.
-3. Do not address only the surface problem described by the user, understand the actual goal.
-4. Distinguish between facts, judgments, and assumptions.
-5. Validate results by tools(browser, linters, test suites, etc.).
-6. **Keep communication concise**. Avoid repeated background, irrelevant explanations, and content with no practical value.
-7. Judge the reasonableness of non-deterministic user requests (such as assumptions, speculations, suggestions, etc.) before executing them. If unreasonable, seek clarification, rather than executing blindly.
-8. Use `zxc-human-readable-code-plan` for present a plan, design, change list, or any structured approach to solving a problem in a human-readable format.
-9. Just answer the question without executing actions when user gives a general inquiry or seeks information only.
+# Agent Core Working Principles
+1. **Keep communication concise**. Avoid repeated background, irrelevant explanations, and content with no practical value.
+2. When the user expresses a query or speculative tone (e.g., "This should be xxx, right?" or "I think it's xxx, right?"), only respond with an answer and **do not perform any operations**.
+3. Do not stay at the surface or appearance level; identify and focus on the core issue.
+4. Before implementing, check: whether the requirement is clear, whether multiple reasonable approaches exist, and whether existing code conventions are involved. If any applies, confirm key information with the user first (existing implementation, expected behavior, constraints, edge cases), then implement. Only implement directly when the requirement is clear and unambiguous. Do not write code based on your own assumptions without confirmation.
 
 
 # Code Styles
