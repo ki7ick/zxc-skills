@@ -1,5 +1,5 @@
 ---
-name: bug-fix-workflow
+name: zxc-fix-bug
 description: Use this workflow when fixing bugs.
 ---
 
